@@ -1,0 +1,47 @@
+Metadata-Version: 2.4
+Name: image_processing
+Version: 0.2
+Summary: Image Processing Package using Skimage
+Home-page: https://github.com/agathacrissantos/DIO-image-processing-package/tree/master
+Author: Agatha
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-image
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# image_processing
+
+Description. 
+The package image_processing is used to:
+    Processing:
+	    - Histogram matching 
+	    - Structural similarity
+		- Resize image
+	Utils:
+	    - Read image
+		- Save image
+		- Plot image
+		- Plot result
+		- Plot histogram
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install image_processing
+```
+
+## Author
+Agatha
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
