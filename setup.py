@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="image_processing",
-    version="0.2",
+    name="image_processing-agatha",
+    version="0.3",
     author="Agatha",
     description="Image Processing Package using Skimage",
     long_description=open("README.md").read(),  # Certifique-se de que README.md existe
@@ -11,7 +11,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "numpy",
-        "matplotlib",
+        "matplotlib>=3.0.0",
         "scikit-image"
     ],
     python_requires=">=3.11",
